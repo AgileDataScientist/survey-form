@@ -7,21 +7,33 @@
     <h1 id="title">The Big Five Personality Survey</h1>
     <p id="description"> Practice text to see if this works.</p>
     <form id="survey-form">
+
+      <!-- Name, Email and Age -->
       <label id="name-label">   Name:  </label>
       <input id="name"   type="text"  name="name"     required placeholder="Jane Doe">   </input><br>
       <label id="email-label">  Email: </label>
       <input id="email"  type="email" name="email"    required placeholder="jane.doe@gmail.com">  </input><br>
       <label id="number-label"> Age:   </label>
       <input id="number" type="number"  name="number" min="18" max="65" required placeholder="29">  </input><br>
+
+      <!-- Dropdown Menu -->
       <select id="dropdown" name="test-type">
         <option value="test-1"> Test 1 </option>
         <option value="test-2"> Test 2 </option>
         <option value="test-3"> Test 3 </option>
         <option value="test-4"> Test 4 </option>
       </select><br>
-      <input name="gender" type="radio" value="female" > Female </input>
-      <input name="gender" type="radio" value="male" > Male </input>
+
+      <!-- Gender Radio Buttons -->
+      <input name="gender" type="radio" value="female" > Female </input><br>
+      <input name="gender" type="radio" value="male" > Male </input><br>
       <input name="gender" type="radio" value="not-otherwise-specified" > Not Otherwise Specified </input><br>
+
+      <!--   Checkboxes -->
+      <input name="choice-1" type="checkbox" value="choice-1" > Choice 1 </input><br>
+      <input name="choice-2" type="checkbox" value="choice-2" > Choice 2 </input><br>
+      <input name="choice-3" type="checkbox" value="choice-3" > Choice 3 </input><br>
+
       <input type="submit">
     </form>
     <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
