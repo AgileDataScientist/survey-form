@@ -4,19 +4,23 @@ body {
   font-family: sans-serif;
   color: white;
 }
-.header {
- padding: 50px;
- text-align: center;
+.header, .dropdown-menu {
+   padding: 50px;
+   text-align: center;
 }
 .demographics {
- display: flex;
- padding: 10px;
+   display: flex;
+   padding: 10px;
 }
 .demographics > label {
- width: 30%;
- margin: 15px;
+   width: 30%;
+   margin: 15px;
 }
 label {
   display: block;
   font-size: 1.2rem;
+}
+a {
+  font-style: italic;
+  font-size: 1.1rem;
 }
