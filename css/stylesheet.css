@@ -1,11 +1,20 @@
 body {
-  /*background-image: url("https://hdwallpaperim.com/wp-content/uploads/2017/08/23/472249-space-colorful-galaxy-purple.jpg");*/
-  /*background-color: yellow;*/
+  background-image: url("https://hdwallpaperim.com/wp-content/uploads/2017/08/23/472249-space-colorful-galaxy-purple.jpg");
+  background-color: yellow;
   font-family: sans-serif;
-  text-color: yellow;
+  color: white;
 }
-h1, p, label {
-  text-color: yellow;
+.header {
+ padding: 50px;
+ text-align: center;
+}
+.demographics {
+ display: flex;
+ padding: 10px;
+}
+.demographics > label {
+ width: 30%;
+ margin: 15px;
 }
 label {
   display: block;

@@ -2,24 +2,11 @@
   <head>
    <link type="text/css" href="css/stylesheet.css" rel="stylesheet">
    <style>
-     body {
-       background-image: url("https://hdwallpaperim.com/wp-content/uploads/2017/08/23/472249-space-colorful-galaxy-purple.jpg");
-       background-color: yellow;
-       font-family: sans-serif;
-       color: white;
-     }
-     h1, p, label {
-       text-color: yellow;
-     }
-     label {
-       display: block;
-       font-size: 1.2rem;
-     }
-   </style>
+  </style>
   </head>
   <body>
     <!-- Header for file -->
-    <div>
+    <div class="header">
       <h1 id="title">The Big Five Personality Survey</h1>
       <p id="description"> Practice text to see if this works.</p>
     </div>
@@ -29,12 +16,12 @@
     <form id="survey-form">
 
       <!-- Name, Email and Age -->
-      <label id="name-label">   Name:  </label>
-      <input id="name"   type="text"  name="name"     required placeholder="Jane Doe">   </input><br>
-      <label id="email-label">  Email: </label>
-      <input id="email"  type="email" name="email"    required placeholder="jane.doe@gmail.com">  </input><br>
-      <label id="number-label"> Age:   </label>
-      <input id="number" type="number"  name="number" min="18" max="65" required placeholder="29">  </input><br>
+      <div class="demographics">
+        <label id="name-label">   Name:  <input id="name"   type="text"  name="name"     required placeholder="Jane Doe">   </input></label>
+        <label id="email-label">  Email: <input id="email"  type="email" name="email"    required placeholder="jane.doe@gmail.com">  </input></label><br>
+        <label id="number-label"> Age:   <input id="number" type="number"  name="number" min="18" max="65" required placeholder="29">  </input></label>
+        <br>
+      </div>
       <br>
 
       <!-- Dropdown Menu -->
