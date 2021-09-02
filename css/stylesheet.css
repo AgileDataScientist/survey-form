@@ -10,7 +10,7 @@ body {
 }
 .dropdown-menu {
    padding: 50px;
-   text-align: center;
+   margin: 150ps;
 }
 .demographics {
    display: flex;
