@@ -1,7 +1,10 @@
 body {
-  text-align: center;
   font-family: sans-serif;
 }
 h1 {
-  text-size: 2rem;
+  content-align: center;
+}
+label {
+  display: block;
+  font-size: 1.2rem;
 }
