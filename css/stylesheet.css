@@ -3,22 +3,18 @@ body {
   background-color: yellow;
   font-family: sans-serif;
   color: white;
+  margin: 150ps;
 }
 .header {
    padding: 50px;
    text-align: center;
 }
 .dropdown-menu {
-   padding: 50px;
-   margin: 150ps;
+  padding: 50px;
 }
 .demographics {
    display: flex;
    padding: 10px;
-}
-.demographics > label {
-   width: 30%;
-   margin: 15px;
 }
 label {
   display: block;
