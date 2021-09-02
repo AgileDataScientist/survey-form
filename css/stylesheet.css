@@ -1,8 +1,6 @@
 body {
+  background-color: yellow;
   font-family: sans-serif;
-}
-h1 {
-  content-align: center;
 }
 label {
   display: block;
