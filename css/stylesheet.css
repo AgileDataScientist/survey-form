@@ -4,7 +4,11 @@ body {
   font-family: sans-serif;
   color: white;
 }
-.header, .dropdown-menu {
+.header {
+   padding: 50px;
+   text-align: center;
+}
+.dropdown-menu {
    padding: 50px;
    text-align: center;
 }
